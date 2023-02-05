@@ -3,6 +3,8 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: "Roboto",Arial;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .container {
@@ -115,6 +117,7 @@ body {
     background-color: cadetblue;
     font-size: 20px;
     font-style: italic;
+    padding-bottom: 40px;
 }
 
 .picture-item {
@@ -162,6 +165,33 @@ body {
    
 }
 
-.quote {
+.quote, .quote-source {
+    background-color: rgba(241, 241, 241, 0.651);
+    align-items: center;
+    
     display: flex;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(179, 140, 14);
+    font-style: oblique;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-style: italic;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+    
+}
+
+.quote-source{
+    color: black;
+    font-style: normal;
+    font-size: 20px;
+    justify-content: right;
+    flex: 1;
+    
+    align-items:end;
+    padding-top: 10px;   
+    padding-bottom: 50px;
 }
