@@ -162,3 +162,6 @@ body {
    
 }
 
+.quote {
+    display: flex;
+}
